@@ -8,8 +8,8 @@ Kristina Glushkova
 
 ### More Information
 
-definitely not a blogger
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[ivash1228@gmail.com](mailto:email@domain.com)
