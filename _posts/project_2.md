@@ -23,7 +23,7 @@ I don't want to describe cleaning process in detail but I came up with several s
 
 Finishing with cleaning I received another heatmap.
 ![](../images/2_project/heatmap_2.png)
-Yellow represent our NaN values.
+Yellow represents our NaN values.
 
 Exploring the data set I came up with 3 hypotheses which is the main goal of the project.
 1. Songs from the most popular genres stay in chart longer.
@@ -31,25 +31,25 @@ Exploring the data set I came up with 3 hypotheses which is the main goal of the
 3. Month of entry can be significant for the popularity of a song.
 
 #Hypothesis 1
-![](../images/2_project/genres_2)
+![](../images/2_project/genres_2.png)
 According to the results in this graph we can see that Rock and Rock&Roll songs, which are the most popular genres, stay in chart 10 weeks longer on average. But if we take into consideration that genres in our data set was messed up it can be wrong information.
 Using Scipy i received the following results: Ttest_1sampResult(statistic=0.51977379051315709, pvalue=0.60434744067441493)
 It confirmed that my null hypothesis is true.
 
 #Hypothesis 2
 Failed.
-![](../images/2_project/length_2)
+![](../images/2_project/length_2.png)
 It is obvious that there is no correlation between song's length and weeks that it stayed in chart. Dots are spread all over the plotting area gathering around the most common length time. So, the hypothesis that the length of the song influence on remaining in chart failed.
 
 #Hypothesis 3
 
 Failed.
-![](../images/2_project/April)
-![](../images/2_project/November)
+![](../images/2_project/April.png)
+![](../images/2_project/November.png)
 There is no significant relation between released month and a song's popularity. I took April which is the most producing month and randomly chosen November. If we take a look at their graphs we see that they are pretty common.
 
 The only correlation I found while exploring the data set but I had no idea about it before, is that the slower a song goes to the first place the longer it stays in chart. Slow but sure!
-![](../images/2_project/weeks_to_peak)
+![](../images/2_project/weeks_to_peak.png)
 
 #Conclusion
 This data set was very messed up, there was no significant correlations into the data. The starting points for every song is different however they combined into the same weeks. As a result, a lot of values in one column are with the same number and it made difficulties on exploration. The other puzzle for me why 2000 year consists of more than 70 weeks as well as data was only for year 2000.
