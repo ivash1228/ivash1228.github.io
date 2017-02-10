@@ -1,3 +1,8 @@
+---
+layout: post
+title: Slow and Steady Wins the Race or How to Stay in Chart Longer.
+---
+
 # Slow and Steady Wins the Race or How to Stay in Chart Longer.
 
 For my second project at GA I received a data set that was web-scraped from the popular web-site http://www.billboard.com/ and it represents songs which were in Top 100 in year 2000.
